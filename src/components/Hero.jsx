@@ -16,7 +16,7 @@ const Hero = () => {
                 </div>
                 <div className="w-full lg:w-1/2 lg:p-8">
                     <div className="flex justify-center rounded">
-                        <div style={{ width: 400, height: 400, overflow: 'hidden', borderRadius: '50%' }}>
+                        <div style={{ width: 400, height: 400, overflow: 'hidden', borderRadius: '10%' }}>
                             <img
                             src={profilePic}
                             width="100%"

@@ -1,4 +1,6 @@
-import {RiReactjsLine} from "react-icons/ri";
+import { RiReactjsLine } from "react-icons/ri";
+import { FaPython, FaDatabase } from "react-icons/fa"; // For Python and MySQL
+import { SiPandas, SiPytorch, SiCplusplus } from "react-icons/si";
 
 const Technologies = () => {
     return (
@@ -9,19 +11,19 @@ const Technologies = () => {
                     <RiReactjsLine className="text-7xl text-cyan-400"/>
                 </div>
                 <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <RiReactjsLine className="text-7xl"/>
+                    <FaPython className="text-7xl text-yellow-400"/>
                 </div>
                 <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <RiReactjsLine className="text-7xl text-green-500"/>
+                    <FaDatabase className="text-7xl text-green-500"/>
                 </div>
                 <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <RiReactjsLine className="text-7xl text-red-700"/>
+                    <SiPandas className="text-7xl text-blue-400" />
                 </div>
                 <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <RiReactjsLine className="text-7xl text-green-500"/>
+                    <SiPytorch className="text-7xl text-red-500"/>
                 </div>
                 <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <RiReactjsLine className="text-7xl text-sky-700"/>
+                    <SiCplusplus className="text-7xl text-sky-700"/>
                 </div>
             </div>
         </div>

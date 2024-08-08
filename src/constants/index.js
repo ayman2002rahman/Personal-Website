@@ -17,32 +17,32 @@ export const ABOUT_TEXT = `I was born and raised in St. Louis with a Bangladeshi
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "May 2024 - August 2024",
+    role: "UX Design and Developer",
+    company: "Tyson Foods",
+    description: `Developed on an internal component library using React and Storybook UI that increased front-end development efficiency by 15%`,
+    technologies: ["React", "Figma", "Node.js", "Storybook", "Gitlab"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
+    year: "August 2023 - May 2024",
     role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    company: "Arul Capital",
+    description: `Colaborated on a team of 3 to create severl projects related to client specific needs. Utelized webscraping to gather meme coin price data to train a model to forecast crpyto prices.`,
+    technologies: ["AWS", "Python", "Pandas", "HTML", "CSS", "Javascript"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "May 2023 - August 2023",
+    role: "Data Science Intern",
+    company: "Tasacom Inc.",
+    description: `Developed and tested stastisical machine learning models over several buisness needs.`,
+    technologies: ["Python", "Pandas", "SQL"],
+  },
+  {
+    year: "January 2024 - Present",
+    role: "ACM AI President",
+    company: "ACM",
+    description: `Lead the school AI club by teaching and facilitating student interest in the fiel dof AI. Hosted workshops to teach PyTorch and machine learning.`,
+    technologies: ["Python", "PyTorch", "Excel"],
   },
 ];
 
