@@ -32,11 +32,6 @@ const ParticlesComponent = (props) => {
 
   const options = useMemo(
     () => ({
-      background: {
-        color: {
-          value: "#000000",
-        },
-      },
       fpsLimit: 120,
       interactivity: {
         events: {
@@ -61,7 +56,7 @@ const ParticlesComponent = (props) => {
       },
       particles: {
         color: {
-          value: "#FFFFFF",
+          value: "#342b42",
         },
         links: {
           color: "#FFFFFF",

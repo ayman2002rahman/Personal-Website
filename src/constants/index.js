@@ -1,19 +1,16 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
-
 import florai from "../assets/projects/florai.jpg";
 import onTrack from "../assets/projects/onTrack.jpg";
 import valorantRanks from "../assets/projects/valorantRanks.jpg";
 
 export const HERO_CONTENT = `I am a passionate student with experience in developing full scale applications. I also have a strong interest in AI, most notably reinforcement learning! I hope ot sharpen my skills and keep learning!`;
 
-export const ABOUT_TEXT = `I was born and raised in St. Louis with a Bangladeshi heritage. 
+export const ABOUT_TEXT = `I was born and raised in St. Louis. 
                   I attend the Missouri University of Science and Technology majoring in computer science. 
                   I am always passionate about learning new things and broadening my skills.
                   While I do my best to stay on the daily grind, I do enjoy many other things. 
-                  Some of my passions include music, fashion, and traveling!".`;
+                  Some of my passions include music, fashion, and traveling!`;
+
+export const ABOUT_MORE = '';
 
 export const EXPERIENCES = [
   {
@@ -71,7 +68,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "16640 Wycliffe Place Drive, Wildwood, MO 63005 ",
-  phoneNo: "+314 835 8595 ",
+  location: "Wildwood, MO 63005 ",
+  phoneNo: "+1 (314) 835 8595 ",
   email: "ayman2002rahman@gmail.com",
 };
