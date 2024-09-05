@@ -15,9 +15,15 @@ export const ABOUT_MORE = '';
 export const EXPERIENCES = [
   {
     year: "May 2024 - August 2024",
-    role: "UX Design and Developer",
+    role: "Software Engineer Intern",
     company: "Tyson Foods",
-    description: `Developed on an internal component library using React and Storybook UI that increased front-end development efficiency by 15%`,
+    description:`• Assisted in developing an internal design system using Figma and React.
+                • Created web components and implemented bug fixes for a React library utilized by front end developers,
+                significantly decreasing future development time.
+                • Developed and deployed a Python bot that automatically queried freight shipping costs, reducing the amount of
+                manual time spent by 99%.
+                • Abstracted and augmented photos of chickens to train a key point detection model.
+                • Researched and established diffusion policy networks to support precise robotic task training.`,
     technologies: ["React", "Figma", "Node.js", "Storybook", "Gitlab"],
   },
   {
@@ -38,7 +44,7 @@ export const EXPERIENCES = [
     year: "January 2024 - Present",
     role: "ACM AI President",
     company: "ACM",
-    description: `Lead the school AI club by teaching and facilitating student interest in the fiel dof AI. Hosted workshops to teach PyTorch and machine learning.`,
+    description: `Lead the school AI club by teaching and facilitating student interest in the field of AI. Hosted workshops to teach PyTorch and machine learning.`,
     technologies: ["Python", "PyTorch", "Excel"],
   },
 ];
