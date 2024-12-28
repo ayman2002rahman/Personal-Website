@@ -17,34 +17,43 @@ export const EXPERIENCES = [
     year: "May 2024 - August 2024",
     role: "Software Engineer Intern",
     company: "Tyson Foods",
-    description:`• Assisted in developing an internal design system using Figma and React.
-                • Created web components and implemented bug fixes for a React library utilized by front end developers,
-                significantly decreasing future development time.
-                • Developed and deployed a Python bot that automatically queried freight shipping costs, reducing the amount of
-                manual time spent by 99%.
-                • Abstracted and augmented photos of chickens to train a key point detection model.
-                • Researched and established diffusion policy networks to support precise robotic task training.`,
+    description: [
+      'Assisted in developing an internal design system using Figma and React',
+      'Created web components and implemented bug fixes for a React library utilized by front end developers, significantly decreasing future development time',
+      'Developed and deployed a Python bot that automatically queried freight shipping costs, saving the company $75 thousand a year in manual labor',
+      'Abstracted and augmented photos of chickens to train a key point detection model',
+      'Researched and established diffusion policy networks to support precise robotic task training'
+    ],
     technologies: ["React", "Figma", "Node.js", "Storybook", "Gitlab"],
   },
   {
     year: "August 2023 - May 2024",
     role: "Full Stack Developer",
     company: "Arul Capital",
-    description: `Colaborated on a team of 3 to create severl projects related to client specific needs. Utelized webscraping to gather meme coin price data to train a model to forecast crpyto prices.`,
+    description: [
+      'Worked with a team of developers to build different applications for the client\'s needs',
+      'Cleaned up crypto coin data using Pandas to train a Tensorflow recurrent neural network model that can forecast future crypto prices with 90% accuracy'
+    ],
     technologies: ["AWS", "Python", "Pandas", "HTML", "CSS", "Javascript"],
   },
   {
     year: "May 2023 - August 2023",
     role: "Data Science Intern",
     company: "Tasacom Inc.",
-    description: `Developed and tested stastisical machine learning models over several buisness needs.`,
+    description: [
+      'Collaborated with data scientists to analyze and extract insights from large databases utilizing SQL and Python, contributing to the development of data-driven solutions',
+      'Implemented a predictive model using machine learning algorithms to predict customer churn, resulting in a 15% reduction in customer attrition rate'
+    ],
     technologies: ["Python", "Pandas", "SQL"],
   },
   {
     year: "January 2024 - Present",
     role: "ACM AI President",
     company: "ACM",
-    description: `Lead the school AI club by teaching and facilitating student interest in the field of AI. Hosted workshops to teach PyTorch and machine learning.`,
+    description: [
+      'Lead the school AI club by teaching and facilitating student interest in the field of AI.',
+      'Hosted workshops to teach PyTorch and machine learning.'
+    ],
     technologies: ["Python", "PyTorch", "Excel"],
   },
 ];
