@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 import {HERO_CONTENT} from "../constants";
 import profilePic from "../assets/aymanRahmanProfile.jpg";
 
-const Hero = () => {
+export default function Hero() {
     return (
         <div className="border-b border-neutral-900 pb-4 lg:mb-35">
             <div className="flex flex-wrap">
@@ -33,5 +33,3 @@ const Hero = () => {
         </div>
     )
 };
-
-export default Hero;

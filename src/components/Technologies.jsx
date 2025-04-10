@@ -5,7 +5,7 @@ import { RiReactjsLine } from "react-icons/ri";
 import { FaPython, FaDatabase } from "react-icons/fa"; // For Python and MySQL
 import { SiPandas, SiPytorch, SiCplusplus } from "react-icons/si";
 
-const Technologies = () => {
+export default function Technologies() {
     return (
         <div className="border-b border-neutral-800 pb-24">
             <h2 className="my-20 text-center text-4xl">Technologies</h2>
@@ -56,5 +56,3 @@ const Technologies = () => {
         </div>
     )
 };
-
-export default Technologies;
