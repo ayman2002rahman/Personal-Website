@@ -1,8 +1,10 @@
 import logo from "../assets/yoruult.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaLeetcode } from 'react-icons/fa';
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { SiLeetcode } from 'react-icons/si';
+import { CIcon } from '@coreui/icons-react';
+import { cibSpotify } from '@coreui/icons';
+
 import { FaInstagram } from "react-icons/fa";
 
 const Navbar = () => {
@@ -20,10 +22,14 @@ const Navbar = () => {
                     target="_blank" 
                     rel="noopener noreferrer"
                 ><FaGithub/></a>
-                <a href="https://x.com/Scarlizar"
+                <a href="https://leetcode.com/u/ayman2002rahman/"
                     target="_blank" 
                     rel="noopener noreferrer"
-                ><FaSquareXTwitter/></a>
+                ><SiLeetcode/></a>
+                <a href="https://open.spotify.com/user/arahman621?si=8dab615503464fd0"
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                ><CIcon icon={cibSpotify} className="w-6 h-6 text-white"/></a>
                 <a href="#"
                     target="_blank" 
                     rel="noopener noreferrer"

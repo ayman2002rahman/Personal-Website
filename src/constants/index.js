@@ -2,7 +2,7 @@ import florai from "../assets/projects/florai.jpg";
 import onTrack from "../assets/projects/onTrack.jpg";
 import valorantRanks from "../assets/projects/valorantRanks.jpg";
 
-export const HERO_CONTENT = `I am a passionate student with experience in developing full scale applications. I also have a strong interest in AI, most notably reinforcement learning! I hope ot sharpen my skills and keep learning!`;
+export const HERO_CONTENT = `I am a passionate student with experience in developing full scale applications. I also have a strong interest in AI, most notably reinforcement learning! I hope to sharpen my skills and keep learning!`;
 
 export const ABOUT_TEXT = `I was born and raised in St. Louis. 
                   I attend the Missouri University of Science and Technology majoring in computer science. 
