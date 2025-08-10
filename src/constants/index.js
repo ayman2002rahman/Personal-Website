@@ -26,26 +26,26 @@ export const EXPERIENCES = [
     ],
     technologies: ["React", "Figma", "Node.js", "Storybook", "Gitlab"],
   },
-  {
-    year: "August 2023 - May 2024",
-    role: "Full Stack Developer",
-    company: "Arul Capital",
-    description: [
-      'Worked with a team of developers to build different applications for the client\'s needs',
-      'Cleaned up crypto coin data using Pandas to train a Tensorflow recurrent neural network model that can forecast future crypto prices with 90% accuracy'
-    ],
-    technologies: ["AWS", "Python", "Pandas", "HTML", "CSS", "Javascript"],
-  },
-  {
-    year: "May 2023 - August 2023",
-    role: "Data Science Intern",
-    company: "Tasacom Inc.",
-    description: [
-      'Collaborated with data scientists to analyze and extract insights from large databases utilizing SQL and Python, contributing to the development of data-driven solutions',
-      'Implemented a predictive model using machine learning algorithms to predict customer churn, resulting in a 15% reduction in customer attrition rate'
-    ],
-    technologies: ["Python", "Pandas", "SQL"],
-  },
+  // {
+  //   year: "August 2023 - May 2024",
+  //   role: "Full Stack Developer",
+  //   company: "Arul Capital",
+  //   description: [
+  //     'Worked with a team of developers to build different applications for the client\'s needs',
+  //     'Cleaned up crypto coin data using Pandas to train a Tensorflow recurrent neural network model that can forecast future crypto prices with 90% accuracy'
+  //   ],
+  //   technologies: ["AWS", "Python", "Pandas", "HTML", "CSS", "Javascript"],
+  // },
+  // {
+  //   year: "May 2023 - August 2023",
+  //   role: "Data Science Intern",
+  //   company: "Tasacom Inc.",
+  //   description: [
+  //     'Collaborated with data scientists to analyze and extract insights from large databases utilizing SQL and Python, contributing to the development of data-driven solutions',
+  //     'Implemented a predictive model using machine learning algorithms to predict customer churn, resulting in a 15% reduction in customer attrition rate'
+  //   ],
+  //   technologies: ["Python", "Pandas", "SQL"],
+  // },
   {
     year: "January 2024 - Present",
     role: "ACM AI President",
