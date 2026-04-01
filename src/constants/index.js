@@ -2,15 +2,25 @@ import florai from "../assets/projects/florai.jpg";
 import onTrack from "../assets/projects/onTrack.jpg";
 import valorantRanks from "../assets/projects/valorantRanks.jpg";
 
-export const HERO_CONTENT = `I am a passionate student with experience in developing full scale applications. I also have a strong interest in AI, most notably reinforcement learning! I hope ot sharpen my skills and keep learning!`;
+export const NAV_LINKS = [
+  { label: "Home", href: "#home" },
+  { label: "About", href: "#about" },
+  { label: "Experience", href: "#experience" },
+  { label: "Projects", href: "#projects" },
+  { label: "Contact", href: "#contact" },
+];
 
-export const ABOUT_TEXT = `I was born and raised in St. Louis. 
-                  I attend the Missouri University of Science and Technology majoring in computer science. 
-                  I am always passionate about learning new things and broadening my skills.
-                  While I do my best to stay on the daily grind, I do enjoy many other things. 
-                  Some of my passions include music, fashion, and traveling!`;
+export const HERO_CONTENT = `I am a passionate student with experience in developing full scale applications. I also have a strong interest in AI, most notably reinforcement learning! I hope to sharpen my skills and keep learning!`;
+
+export const ABOUT_TEXT = `I was born and raised in St. Louis. I attend the Missouri University of Science and Technology majoring in computer science. I am always passionate about learning new things and broadening my skills. While I do my best to stay on the daily grind, I do enjoy many other things. Some of my passions include music, fashion, and traveling!`;
 
 export const ABOUT_MORE = '';
+
+export const TECHNOLOGIES = [
+  "React", "Python", "SQL", "Pandas", "PyTorch", "C++",
+  "JavaScript", "TypeScript", "Node.js", "Swift", "TensorFlow",
+  "Firebase", "AWS", "Figma", "Angular", "Git",
+];
 
 export const EXPERIENCES = [
   {
@@ -82,8 +92,24 @@ export const PROJECTS = [
   },
 ];
 
+export const MOCK_SPOTIFY = {
+  isPlaying: true,
+  track: "Blinding Lights",
+  artist: "The Weeknd",
+  album: "After Hours",
+  progress: 65,
+  currentTime: "2:09",
+  duration: "3:20",
+  albumGradient: ["#e84545", "#2d1f67"],
+  recentTracks: [
+    { track: "Starboy", artist: "The Weeknd", albumGradient: ["#f5af19", "#f12711"] },
+    { track: "Nights", artist: "Frank Ocean", albumGradient: ["#0f2027", "#2c5364"] },
+    { track: "Pink + White", artist: "Frank Ocean", albumGradient: ["#ee9ca7", "#ffdde1"] },
+  ],
+};
+
 export const CONTACT = {
-  location: "Wildwood, MO 63005 ",
-  phoneNo: "+1 (314) 835 8595 ",
+  location: "Wildwood, MO 63005",
+  phoneNo: "+1 (314) 835 8595",
   email: "ayman2002rahman@gmail.com",
 };

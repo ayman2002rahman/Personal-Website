@@ -1,30 +1,75 @@
+import { useEffect, useRef } from "react";
+import Lenis from "lenis";
+
+import { ScrollProvider } from "./ScrollContext";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
-import Technologies from "./components/Technologies";
+import NowPlaying from "./components/NowPlaying";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
-import ParticlesComponent from './components/particles.jsx'
-import './App.css'
-
 export default function App() {
+  const lenisRef = useRef(null);
+
+  useEffect(() => {
+    const lenis = new Lenis({
+      duration: 1.2,
+      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      smoothWheel: true,
+    });
+    lenisRef.current = lenis;
+
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+    requestAnimationFrame(raf);
+
+    return () => {
+      lenis.destroy();
+      lenisRef.current = null;
+    };
+  }, []);
+
   return (
-    <div className="overflow-x-hidden textneutral-300 antialiased slection:bg-cyan-300 selection:text-cyan-900">
-      <div className="fixed top-0 -z-10 h-full w-full">
-        <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
-        <ParticlesComponent className="absolute top-0 left-0 h-full w-full z-[-1]" />
+    <ScrollProvider lenisRef={lenisRef}>
+    <div className="relative min-h-screen overflow-x-hidden text-neutral-200 antialiased">
+      {/* Animated gradient blobs background */}
+      <div className="fixed inset-0 -z-10 overflow-hidden">
+        <div className="absolute inset-0 bg-[#050510]" />
+        <div className="gradient-blob blob-1" />
+        <div className="gradient-blob blob-2" />
+        <div className="gradient-blob blob-3" />
       </div>
-      <div className="container mx-auto px-8">
-        <Navbar/>
-        <Hero/>
-        <About/>
-        <Technologies/>
-        <Experience/>
-        <Projects/>
-        <Contact/>
-      </div>
+
+      {/* Noise texture overlay */}
+      <div className="noise-overlay" />
+
+      <Navbar />
+
+      <main>
+        <section id="home">
+          <Hero />
+        </section>
+        <section id="about">
+          <About />
+        </section>
+        <section id="now-playing">
+          <NowPlaying />
+        </section>
+        <section id="experience">
+          <Experience />
+        </section>
+        <section id="projects">
+          <Projects />
+        </section>
+        <section id="contact">
+          <Contact />
+        </section>
+      </main>
     </div>
-  )
+    </ScrollProvider>
+  );
 }
